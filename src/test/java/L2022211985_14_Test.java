@@ -20,7 +20,7 @@ public class L2022211985_14_Test {
      */
     @Test
     public void valid12IP() {
-        string = "25525525525";
+        string = "255255255255";
         Collections.addAll(truth, "255.255.255.255");
         Solution solution = new Solution();
         List<String> stringList = solution.restoreIpAddresses(string);
